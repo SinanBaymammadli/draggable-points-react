@@ -1,0 +1,36 @@
+.circle {
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #ff705a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.circle input {
+  outline: none;
+  background: none;
+  width: 60px;
+  margin: 8px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #071a39;
+}
+
+.distance-line {
+  background: #071a39;
+  height: 2px;
+  position: absolute;
+  transform-origin: 0 0;
+  text-align: center;
+}
+
+.distance-line input {
+  background-color: #071a39;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50px;
+}
